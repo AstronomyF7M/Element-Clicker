@@ -5,6 +5,6 @@ By AstronomyF7M and Skab</h1>
 <br>
 <p>Here is the current list of elements in the game</p>
 <br>
-<h1>-1-</h1>
+<h1>-1-        Hydrogen</h1>
 <br>
-<p>Hydrogen</p>
+
