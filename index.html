@@ -1,2 +1,42 @@
-<!DOCTYPE html>
+# Element Clicker Game
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Element Clicker</h1>
+            <p>Click on the elements to gather energy!</p>
+        </header>
+        <main>
+            <div class="element" id="fire" onclick="clickElement('fire')">
+                <img src="fire.png" alt="Fire Element">
+                <p id="fireCount">0</p>
+            </div>
+            <div class="element" id="water" onclick="clickElement('water')">
+                <img src="water.png" alt="Water Element">
+                <p id="waterCount">0</p>
+            </div>
+            <div class="element" id="earth" onclick="clickElement('earth')">
+                <img src="earth.png" alt="Earth Element">
+                <p id="earthCount">0</p>
+            </div>
+            <div class="element" id="air" onclick="clickElement('air')">
+                <img src="air.png" alt="Air Element">
+                <p id="airCount">0</p>
+            </div>
+        </main>
+        <footer>
+            <button id="upgradeButton" onclick="upgrade()">Upgrade Elements</button>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+        
