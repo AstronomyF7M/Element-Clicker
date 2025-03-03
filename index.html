@@ -83,7 +83,7 @@
 
             <h2>Auto-Clickers</h2>
             <button class="shopButton" onclick="buyAutoClicker()">
-                Buy Auto-Clicker (Cost: <span id="autoClickerCost">1,000,000</span> atoms)
+                Buy Auto-Clicker (Cost: <span id="autoClickerCost">50</span> atoms)
             </button>
             <p>Auto-Clickers: <span id="autoClickers">0</span></p>
         </div>
@@ -99,13 +99,14 @@
         const elements = [
             { name: "Hydrogen", symbol: "H", cost: 100 },
             { name: "Helium", symbol: "He", cost: 500 },
-            { name: "Lithium", symbol: "Li", cost: 1,000 },
-            { name: "Beryllium", symbol: "Be", cost: 5,000 },
-            { name: "Boron", symbol: "B", cost: 10,000 },
-            { name: "Carbon", symbol: "C", cost: 50,000 }
-        ];  { name: "Uranium", symbol: "U", cost: 100,000}
-            { name: "Palladium", symbol: "PD", cost: 150,000}
-            { name: "Osmium", symbol: "OS", cost: 200,000}
+            { name: "Lithium", symbol: "Li", cost: 1000 },
+            { name: "Beryllium", symbol: "Be", cost: 5000 },
+            { name: "Boron", symbol: "B", cost: 10000 },
+            { name: "Carbon", symbol: "C", cost: 50000 }
+            { name: "Uranium", symbol: "U", cost: 100000}
+            { name: "Palladium", symbol: "PD", cost: 150000}
+            { name: "Osmium", symbol: "OS", cost: 200000}
+        ];
 
         function updateDisplay() {
             document.getElementById('atoms').textContent = formatNumber(atoms);
