@@ -5,6 +5,14 @@ By AstronomyF7M and Skab</h1>
 <br>
 <p>Here is the current list of elements in the game</p>
 <br>
-<h1>-1-        Hydrogen</h1>
+<h1>-1-</h1>
 <br>
+<p>Hydrogen</p>
+<p>This is the first element of element clicker,</p>
+<br>
+<p>Price: 0 points, starting element.</p>
+<br>
+<p>Points given: 1 point.</p>
+<br>
+<p>Icon: "H".</p>
 
