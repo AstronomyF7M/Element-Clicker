@@ -8,7 +8,7 @@ let airCount = 0;
 function clickElement(element) {
     switch (element) {
         case 'fire':
-            fireCount+1;
+            fireCount++1;
             document.getElementById('fireCount').innerText = fireCount;
             break;
         case 'water':
